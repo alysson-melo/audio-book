@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,  #1E2325, #949697, #1E2325);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#galatas-img {
+    width: 300px;
+}
+
+#tittle {
+    text-align: center;
+    color: white;
+    font: 500 18px 'Inter';
+    margin-block: 10px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i {
+    color: white;
+    font-size: 34px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+}
